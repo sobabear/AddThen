@@ -8,7 +8,7 @@
 🎨 View instance sugar for Swift & UIKit 
 ## Example
 
-Make View code with **AddThen**
+Add subView code with **AddThen**
 ```swift
 
 let label = UILabel()

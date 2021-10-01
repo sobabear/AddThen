@@ -13,7 +13,7 @@
 		30AD2FA9E1259AF416E6E212F88FE302 /* AddThen-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F985E995884E4A43D0F03C637093BF1 /* AddThen-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		699F370E55F05B2D5134DF0744A8F2AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		905DB956AC40C11F9A92AD0556B915F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FBAC51924F03B91F98077AC1D9659DCD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDA267EE2AD7E981E093A63C5E649B0 /* ReplaceMe.swift */; };
+		FBAC51924F03B91F98077AC1D9659DCD /* AddThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEDA267EE2AD7E981E093A63C5E649B0 /* AddThen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,23 +29,23 @@
 /* Begin PBXFileReference section */
 		040B8675F234BF774BB66A5BB26CFBF7 /* AddThen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddThen.debug.xcconfig; sourceTree = "<group>"; };
 		0F985E995884E4A43D0F03C637093BF1 /* AddThen-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddThen-umbrella.h"; sourceTree = "<group>"; };
-		221AD6C3020D539DC7EF5B4521E35712 /* Pods_AddThen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AddThen_Tests.framework; path = "Pods-AddThen_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		304EFD65FAB0BE83C05F44B881F2B902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		221AD6C3020D539DC7EF5B4521E35712 /* Pods_AddThen_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddThen_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		304EFD65FAB0BE83C05F44B881F2B902 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3370BD0A6EB11BD3C2D1280883CE330E /* Pods-AddThen_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AddThen_Tests.modulemap"; sourceTree = "<group>"; };
 		40125D657C4B5689492D1F3920C8B9BA /* Pods-AddThen_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AddThen_Tests-dummy.m"; sourceTree = "<group>"; };
 		4CA8C47987121F96FFED04A0E983AF12 /* Pods-AddThen_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AddThen_Tests-umbrella.h"; sourceTree = "<group>"; };
-		53586FFFBF62ADFF2281CEEED1AA0449 /* AddThen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AddThen.framework; path = AddThen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53586FFFBF62ADFF2281CEEED1AA0449 /* AddThen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AddThen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E52EE4DF1140E3BBCB4D65E0FA01D67 /* AddThen-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AddThen-dummy.m"; sourceTree = "<group>"; };
 		6608BBCD73CA4527184FA3C00051934D /* AddThen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AddThen.release.xcconfig; sourceTree = "<group>"; };
 		7143E5BEA31F967324070324951BF18F /* Pods-AddThen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddThen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7383ED384F578153B0786CA67821ED1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7383ED384F578153B0786CA67821ED1F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		77E7BF9A7AF8C4E15EB1904A0388B52B /* AddThen-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AddThen-prefix.pch"; sourceTree = "<group>"; };
 		78D09569B1B9A25BD940D3BA0E26D75A /* Pods-AddThen_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddThen_Tests-Info.plist"; sourceTree = "<group>"; };
-		7ED02E98E7A156F5103E94948681E4FD /* AddThen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AddThen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7ED02E98E7A156F5103E94948681E4FD /* AddThen.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AddThen.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		948CDC444B9AFFF54FD216783AF04403 /* Pods-AddThen_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AddThen_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AEDA267EE2AD7E981E093A63C5E649B0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AddThen/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEDA267EE2AD7E981E093A63C5E649B0 /* AddThen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AddThen.swift; path = AddThen/Classes/AddThen.swift; sourceTree = "<group>"; };
 		C2D52121139FDE4B1F73D003375D98D8 /* Pods-AddThen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddThen_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C995A908BC2B9624517BB18FBB71EC26 /* Pods-AddThen_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddThen_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EECE0952EA96096061AECA701EDCE7E1 /* AddThen.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AddThen.modulemap; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		6A20C93A94F71045E0548A5A0FA2C5B3 /* AddThen */ = {
 			isa = PBXGroup;
 			children = (
-				AEDA267EE2AD7E981E093A63C5E649B0 /* ReplaceMe.swift */,
+				AEDA267EE2AD7E981E093A63C5E649B0 /* AddThen.swift */,
 				1F1DE80B0F42F145F4B665CB72B63169 /* Pod */,
 				4040F2B1A54128717D2784ED22DD83DF /* Support Files */,
 			);
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DB666F9E55D35CEBC8C8B195C9EDDC9 /* AddThen-dummy.m in Sources */,
-				FBAC51924F03B91F98077AC1D9659DCD /* ReplaceMe.swift in Sources */,
+				FBAC51924F03B91F98077AC1D9659DCD /* AddThen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +367,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

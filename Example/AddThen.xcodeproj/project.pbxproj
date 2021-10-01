@@ -16,10 +16,10 @@
 		607FACE51AFB9204008FA782 /* AddThen_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddThen_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8CE7FA4A2F4CCE31D3AC928D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8CE7FA4A2F4CCE31D3AC928D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8D79D124441D09865E4BEEB3 /* Pods-AddThen_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddThen_Tests.release.xcconfig"; path = "Target Support Files/Pods-AddThen_Tests/Pods-AddThen_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B021D0F1BBCC98D851D88CA5 /* AddThen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AddThen.podspec; path = ../AddThen.podspec; sourceTree = "<group>"; };
-		EAAEBEFDBC8348201B7D198D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B021D0F1BBCC98D851D88CA5 /* AddThen.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AddThen.podspec; path = ../AddThen.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EAAEBEFDBC8348201B7D198D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FB65B51FAC0915ECED0B3A6F /* Pods-AddThen_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddThen_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AddThen_Tests/Pods-AddThen_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,6 @@
 				FB65B51FAC0915ECED0B3A6F /* Pods-AddThen_Tests.debug.xcconfig */,
 				8D79D124441D09865E4BEEB3 /* Pods-AddThen_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

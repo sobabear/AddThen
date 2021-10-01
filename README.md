@@ -5,11 +5,39 @@
 [![License](https://img.shields.io/cocoapods/l/AddThen.svg?style=flat)](https://cocoapods.org/pods/AddThen)
 [![Platform](https://img.shields.io/cocoapods/p/AddThen.svg?style=flat)](https://cocoapods.org/pods/AddThen)
 
+🎨 View instance sugar for Swift & UIKit 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Make View code with **AddThen**
+```swift
+
+let label = UILabel()
+label.backgroundColor = .red
+label.text = "Hello, World"
+
+...
+
+view.addSubview(label)
+```
+
+This is equivalent to :
+```swift
+let label = UILabel()
+
+...
+
+view.add(label) {
+  $0.backgroundColor = .red
+  $0.text = "Hello, World!"
+}
+
+```
 
 ## Requirements
+
+- iOS 9.0+ (11.0+ recommended)
+- Xcode 12.0+
+- Swfit 5.0 
 
 ## Installation
 
@@ -22,7 +50,8 @@ pod 'AddThen'
 
 ## Author
 
-stareta1202, stareta1202@gmail.com
+- LeFal, qwertyhj2@gmail.com @Mealigram
+- stareta1202, stareta1202@gmail.com @JeongYookGak
 
 ## License
 

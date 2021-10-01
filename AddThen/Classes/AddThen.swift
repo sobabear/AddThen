@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
   @discardableResult
   func add<T: UIView>(_ subview: T, then closure: ((T) -> Void)? = nil) -> T {
     addSubview(subview)
@@ -23,7 +23,7 @@ extension UIView {
   }
 }
 
-extension UIStackView {
+public extension UIStackView {
   @available(iOS 11.0, *)
   @discardableResult
   func addArranged<T: UIView>(_ subview: T, spacing: CGFloat? = nil, then closure: ((T) -> Void)? = nil) -> T {

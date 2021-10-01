@@ -1,0 +1,16 @@
+PODS:
+  - AddThen (0.1.0)
+
+DEPENDENCIES:
+  - AddThen (from `../`)
+
+EXTERNAL SOURCES:
+  AddThen:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AddThen: c41b27a64befb15adf93faf3d7f2d2f70bc89a0f
+
+PODFILE CHECKSUM: 5ecd5b5f9e62f5a89344434fca26878ba81a0f40
+
+COCOAPODS: 1.10.1

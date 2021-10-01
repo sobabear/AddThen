@@ -1,0 +1,6 @@
+framework module AddThen {
+  umbrella header "AddThen-umbrella.h"
+
+  export *
+  module * { export * }
+}

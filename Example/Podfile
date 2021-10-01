@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AddThen_Tests' do
+  pod 'AddThen', :path => '../'
+  
+  
+end

@@ -8,7 +8,30 @@
 🎨 View instance sugar for Swift & UIKit 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Make View code with **AddThen**
+```swift
+
+let label = UILabel()
+label.backgroundColor = .red
+label.text = "Hello, World"
+
+...
+
+view.addSubview(label)
+```
+
+This is equivalent to :
+```swift
+let label = UILabel()
+
+...
+
+view.add(label) {
+  $0.backgroundColor = .red
+  $0.text = "Hello, World!"
+}
+
+```
 
 ## Requirements
 
@@ -27,8 +50,8 @@ pod 'AddThen'
 
 ## Author
 
-LeFal, qwertyhj2@gmail.com @Mealigram
-stareta1202, stareta1202@gmail.com @JeongYookGak
+- LeFal, qwertyhj2@gmail.com @Mealigram
+- stareta1202, stareta1202@gmail.com @JeongYookGak
 
 ## License
 

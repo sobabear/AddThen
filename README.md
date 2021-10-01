@@ -32,7 +32,23 @@ view.add(label) {
 }
 
 ```
+Also very useful with SnapKit
 
+```swift
+let label = UILabel()
+
+...
+
+view.add(label) {
+  $0.backgroundColor = .red
+  $0.text = "Hello, World!"
+  
+  $0.snp.makeConstraints {
+    $0.edges.equalToSuperview()
+  }
+}
+
+```
 ## Requirements
 
 - iOS 9.0+ (11.0+ recommended)

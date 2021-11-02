@@ -57,17 +57,28 @@ view.add(label) {
 
 ## Installation
 
-AddThen is available through [CocoaPods](https://cocoapods.org). To install
+AddThen is available through [CocoaPods](https://cocoapods.org) & SPM. To install
 it, simply add the following line to your Podfile:
+
+### cocoapod
 
 ```ruby
 pod 'AddThen'
 ```
+### Swift Package Manager
+```swift
+import PackageDescription
 
+let package = Package(
+  name: "MyApp",
+  dependencies: [
+    .package(url: "https://github.com/stareta1202/AddThen", .upToNextMajor(from: "1.0.0")),
+  ]
+)
+```
 ## Author
 
-- LeFal, qwertyhj2@gmail.com @Mealigram
-- stareta1202, stareta1202@gmail.com @JeongYookGak
+- Yongjun Lee, stareta1202@gmail.com @JeongYookGak
 
 ## License
 

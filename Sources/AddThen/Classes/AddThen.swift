@@ -23,8 +23,8 @@ public extension UIView {
   }
 }
 
+@available(iOS 11.0, *)
 public extension UIStackView {
-  @available(iOS 11.0, *)
   @discardableResult
   func addArranged<T: UIView>(_ subview: T, spacing: CGFloat? = nil, then closure: ((T) -> Void)? = nil) -> T {
     addArrangedSubview(subview)
@@ -35,7 +35,6 @@ public extension UIStackView {
     return subview
   }
   
-  @available(iOS 11.0, *)
   @discardableResult
   func addArranged<T: UIView>(_ subviews: [T], spacing: CGFloat? = nil, then closure: (([T]) ->Void)? = nil) -> [T] {
     for subview in subviews {

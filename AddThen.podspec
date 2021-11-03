@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AddThen'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '🎨 View instance sugar for Swift & UIKit'
 
 # This description is used to generate tags and improve search results.
@@ -70,8 +70,8 @@ Pod::Spec.new do |s|
 
   ## Author
 
-  LeFal, qwertyhj2@gmail.com @Mealigram\n
-  stareta1202, stareta1202@gmail.com @JeongYookGak
+  Yongjun Lee, stareta1202@gmail.com
+  Chanwoo Cho, https://github.com/GREENOVER
 
   ## License
 

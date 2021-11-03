@@ -48,3 +48,11 @@ public extension UIStackView {
   }
 }
 
+extension UIViewController {
+    @discardableResult
+    func add<T: UIViewController>(_ subViewController: T, then closure: ((T) throws -> Void)? = nil) rethrows -> T {
+        addChild(subViewController)
+        try closure?(subViewController)
+        return subViewController
+    }
+}

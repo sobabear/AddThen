@@ -72,7 +72,7 @@ import PackageDescription
 let package = Package(
   name: "MyApp",
   dependencies: [
-    .package(url: "https://github.com/stareta1202/AddThen", .upToNextMajor(from: "1.0.0")),
+    .package(url: "https://github.com/stareta1202/AddThen", .upToNextMajor(from: "1.0.1")),
   ]
 )
 ```

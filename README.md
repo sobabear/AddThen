@@ -8,7 +8,7 @@
 🎨 View instance sugar for Swift & UIKit 
 ## Example
 
-Add subView code with **AddThen**
+Add UIView & UIViewController code with **AddThen**
 ```swift
 
 let label = UILabel()
@@ -78,7 +78,8 @@ let package = Package(
 ```
 ## Author
 
-- Yongjun Lee, stareta1202@gmail.com @JeongYookGak
+- Yongjun Lee, stareta1202
+- Chanwoo Cho, [GREENOVER](https://github.com/GREENOVER)
 
 ## License
 

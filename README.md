@@ -31,6 +31,14 @@ view.add(label) {
   $0.text = "Hello, World!"
 }
 
+view.add(
+  UIStackView { 
+    UIButton()
+    UIView()
+    UIImageView()
+  }
+)
+
 ```
 Also very useful with SnapKit
 

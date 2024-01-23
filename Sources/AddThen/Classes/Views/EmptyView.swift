@@ -1,5 +1,5 @@
 import UIKit
 
-protocol Emptiable { }
+public protocol Emptiable { }
 
-class EmptyView: UIView, Emptiable { }
+public class EmptyView: UIView, Emptiable { }

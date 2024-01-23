@@ -58,7 +58,7 @@ view.add(label) {
 
 ```
 
-More SwiftUIfully
+## More SwiftUIfully
 ```swift
 /// in certain function in UIViewController
 let label = UILabel()
@@ -73,11 +73,13 @@ body {
     if true {
         UIView()
     } else {
-        EmptyView()
+        EmptyView() // EmptyView will not be added 
     }
 }
 
 ```
+
+if you want to handle certain view which should not be added, use `Emptiable` or `EmptyView`
 
 ## Requirements
 

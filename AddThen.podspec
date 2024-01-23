@@ -8,10 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AddThen'
-  s.version          = '1.2.0'
-  s.summary          = '🎨 View instance sugar for Swift & UIKit'
+  s.version          = '1.2.1'
+  s.summary          = '🎨 View instance sugar for Swift & UIKit with SwiftUI style'
 
-  s.description      = <<-DESC
   # AddThen
 
   [![CI Status](https://img.shields.io/travis/stareta1202/AddThen.svg?style=flat)](https://travis-ci.org/stareta1202/AddThen)
@@ -72,10 +71,10 @@ Pod::Spec.new do |s|
   AddThen is available under the MIT license. See the LICENSE file for more info.
                        DESC
 
-  s.homepage         = 'https://github.com/stareta1202/AddThen'
+  s.homepage         = 'https://github.com/sobabear/AddThen'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'stareta1202' => 'stareta1202@gmail.com' }
-  s.source           = { :git => 'https://github.com/stareta1202/AddThen.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/sobabear/AddThen.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.source_files = 'Sources/AddThen/Classes/**/*'
   s.swift_version = '5.0'

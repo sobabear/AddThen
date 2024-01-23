@@ -17,14 +17,14 @@ public extension UIView {
     
     @discardableResult
     func adds<T: UIView>(_ subviews: [T], then closure: (([T]) -> Void)? = nil) -> [T] {
-        subviews.forEach { addSubview($0) }
+        subviews.filter({ !($0 is Emptiable) }).forEach { addSubview($0) }
         closure?(subviews)
         return subviews
     }
     
     @discardableResult
     func adds<T: UIView>(@Viewable _ subviews: () -> [T], then closure: (([T]) -> Void)? = nil) -> [T] {
-        subviews().forEach { addSubview($0) }
+        subviews().filter({ !($0 is Emptiable) }).forEach { addSubview($0) }
         closure?(subviews())
         return subviews()
     }
@@ -45,6 +45,7 @@ public extension UIStackView {
     @discardableResult
     func addArranged<T: UIView>(_ subviews: [T], spacing: CGFloat? = nil, then closure: (([T]) ->Void)? = nil) -> [T] {
         for subview in subviews {
+            if subview is Emptiable { continue }
             addArrangedSubview(subview)
             if let spacing = spacing {
                 setCustomSpacing(spacing, after: subview)
@@ -57,6 +58,7 @@ public extension UIStackView {
     @discardableResult
     func addArranged<T: UIView>(@Viewable _ subviews: () -> [T], spacing: CGFloat? = nil, then closure: (([T]) ->Void)? = nil) -> [T] {
         for subview in subviews() {
+            if subview is Emptiable { continue }
             addArrangedSubview(subview)
             if let spacing = spacing {
                 setCustomSpacing(spacing, after: subview)
@@ -86,6 +88,6 @@ public extension UIViewController {
 
 public extension UIStackView {
     convenience init(@Viewable _ subviews: () -> [UIView]) {
-        self.init(arrangedSubviews: subviews())
+        self.init(arrangedSubviews: subviews().filter({ !($0 is Emptiable)}))
     }
 }

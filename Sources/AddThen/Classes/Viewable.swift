@@ -1,7 +1,7 @@
 import UIKit
 
 @resultBuilder
-struct Viewable {
+public struct Viewable {
     public static func buildBlock() -> [UIView] { [] }
 
     public static func buildBlock(_ attrs: UIView...) -> [UIView] {

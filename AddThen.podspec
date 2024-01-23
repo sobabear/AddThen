@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AddThen'
-  s.version          = '1.1.0'
+  s.version          = '1.2.0'
   s.summary          = '🎨 View instance sugar for Swift & UIKit'
 
   s.description      = <<-DESC

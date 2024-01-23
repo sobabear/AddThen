@@ -57,6 +57,28 @@ view.add(label) {
 }
 
 ```
+
+More SwiftUIfully
+```swift
+/// in certain function in UIViewController
+let label = UILabel()
+
+body {
+    label.then({ $0.textColor = .red })
+    UIButton()
+
+}
+
+body {
+    if true {
+        UIView()
+    } else {
+        EmptyView()
+    }
+}
+
+```
+
 ## Requirements
 
 - iOS 9.0+ (11.0+ recommended)
@@ -80,7 +102,7 @@ import PackageDescription
 let package = Package(
   name: "MyApp",
   dependencies: [
-    .package(url: "https://github.com/stareta1202/AddThen", .upToNextMajor(from: "1.0.1")),
+    .package(url: "https://github.com/stareta1202/AddThen", .upToNextMajor(from: "1.2.0")),
   ]
 )
 ```

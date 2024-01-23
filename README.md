@@ -104,7 +104,7 @@ import PackageDescription
 let package = Package(
   name: "MyApp",
   dependencies: [
-    .package(url: "https://github.com/sobabear/AddThen", .upToNextMajor(from: "1.2.2")),
+    .package(url: "https://github.com/sobabear/AddThen", .upToNextMajor(from: "1.2.3")),
   ]
 )
 ```

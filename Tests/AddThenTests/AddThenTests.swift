@@ -35,7 +35,12 @@ class TestViewController: UIViewController {
             UIStackView {
                 label.then({ $0.text = "Add then" })
                 UIButton(type: .custom)
-                EmptyView()
+                
+                if true {
+                    UIView()
+                }
+                
+                
             }.then({ $0.axis = .vertical; self.certainStackView = $0 })
         }
     }

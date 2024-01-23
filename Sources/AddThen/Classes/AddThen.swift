@@ -87,6 +87,8 @@ public extension UIViewController {
 
 
 public extension UIStackView {
+    
+    @inlinable
     convenience init(@Viewable _ subviews: () -> [UIView]) {
         self.init(arrangedSubviews: subviews().filter({ !($0 is Emptiable)}))
     }
